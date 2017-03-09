@@ -1,0 +1,28 @@
+{
+  "name": "Parse Dashbard Heroku",
+  "description": "An example Parse Dashboard server using the parse-dashboard module",
+  "repository": "https://github.com/MakeSchool-Tutorials/Parse-Dashboard-Heroku/",
+  "env": {
+    "APP_ID": {
+      "description": "Use the value from your parse setup",
+      "value": "myAppId"
+    },
+    "MASTER_KEY": {
+      "description": "Use the value from your parse setup. Keep this secret.",
+      "value": "myMasterKey"
+    },
+    "SERVER_URL": {
+      "description": "Use the value from your parse setup",
+      "value": "http://yourappname.herokuapp.com/parse"
+    },
+    "USERNAME": {
+      "description": "Username to login to your parse dashboard",
+      "value": ""
+    },
+    "PASSWORD": {
+      "description": "Password to login to your parse dashboard",
+      "value": ""
+    }
+  },
+  "image": "heroku/nodejs"
+}
